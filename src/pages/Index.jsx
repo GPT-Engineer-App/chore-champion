@@ -35,7 +35,10 @@ const Index = () => {
           </ListItem>
         ))}
       </List>
+    <Box as="footer" textAlign="center" p="5" color="gray.600">
+      © 2024 Todo App
     </Box>
+  </Box>
   );
 };
 
